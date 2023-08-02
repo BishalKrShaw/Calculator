@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+/* ----------- Container ---------- */
+.container{
+    max-width: 300px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: auto;
+}
+
+/* -------- Main ---------- */
+#main{
+    background-color: #000;
+    padding-bottom: 20px;
+}
+
+/* -------- Input Output div --------- */
+#taking-values{
+    width: 100%;
+    height: 30vh;
+    position: relative;
+}
+
+#input-output-box{
+    width: 100%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+#input input[type="text"], #output input[type="text"]{
+    width: 100%;
+    text-align: right;
+    border: none;
+    outline: none;
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+    font-size: 1.6rem;
+}
+
+.hide{
+    display: none;
+}
+
+/* ----------- Buttons ------------ */
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.buttons button{
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.buttons .button-size{
+    background-color: #131313;
+}
+
+.buttons .operators{
+    background-color: #525151;
+}
+
+.buttons #equals{
+    background-color: olivedrab;
+}
